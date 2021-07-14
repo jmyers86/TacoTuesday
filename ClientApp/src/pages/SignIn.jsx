@@ -1,4 +1,5 @@
 import React from 'react'
+// @ts-ignore
 import avatar from '../images/avatar.png'
 
 export function SignIn() {

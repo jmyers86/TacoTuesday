@@ -1,6 +1,9 @@
 import React from 'react'
+// @ts-ignore
 import avatar from '../images/avatar.png'
+// @ts-ignore
 import tacoTuesday from '../images/taco-tuesday.svg'
+// @ts-ignore
 import map from '../images/map.png'
 
 export function Restaurants() {
@@ -39,6 +42,7 @@ export function Restaurants() {
             <p>
               <span
                 className="stars"
+                // @ts-ignore
                 style={{ '--rating': 4.7 }}
                 aria-label="Star rating of this location is 4.7 out of 5."
               ></span>
@@ -51,6 +55,7 @@ export function Restaurants() {
             <p>
               <span
                 className="stars"
+                // @ts-ignore
                 style={{ '--rating': 2.3 }}
                 aria-label="Star rating of this location is 2.3 out of 5."
               ></span>
