@@ -15,6 +15,7 @@ namespace TacoTuesday.Models
 
         // Add database tables here
 
+        public DbSet<Restaurant> Restaurants { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
